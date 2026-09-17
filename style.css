@@ -7,3 +7,6 @@
 
 /* Raised plus signature */
 .wordmark{align-items:flex-start;gap:2px}.wordmark .brand-plus{font-size:29px;line-height:1;font-weight:700;color:#a8f900;transform:translateY(-2px);margin-left:1px;position:static;top:auto}@media(max-width:700px){.wordmark .brand-plus{font-size:25px;transform:translateY(-2px)}}
+
+/* Graphic superscript: deliberately prominent at small sizes */
+.wordmark .brand-plus{display:block;width:28px;height:28px;flex:0 0 28px;margin-left:3px;color:#9bea00;transform:translateY(-8px);line-height:0}.brand-plus svg{display:block;width:100%;height:100%}@media(max-width:700px){.wordmark .brand-plus{width:25px;height:25px;flex-basis:25px;transform:translateY(-6px);margin-left:2px}}
