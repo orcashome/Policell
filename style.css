@@ -4,3 +4,6 @@
 
 /* Policell wordmark */
 .wordmark{font-family:'Space Grotesk',sans-serif;gap:3px;align-items:center;letter-spacing:-2.8px;font-size:46px}.wordmark .brand-name{font-weight:700;line-height:1.1}.wordmark .brand-plus{display:inline-block;color:var(--green);font-family:'Space Grotesk',sans-serif;font-size:53px;font-weight:700;line-height:1;letter-spacing:0;transform:translateY(-1px)}h1,h2,h3{font-family:'Space Grotesk',sans-serif;letter-spacing:-.05em}h1{font-weight:600}.contact h2{font-weight:600}@media(max-width:700px){.wordmark{font-size:39px;gap:2px;letter-spacing:-2.3px}.wordmark .brand-plus{font-size:45px}h1{font-size:clamp(64px,20vw,87px)}}
+
+/* Raised plus signature */
+.wordmark{align-items:flex-start;gap:2px}.wordmark .brand-plus{font-size:29px;line-height:1;font-weight:700;color:#a8f900;transform:translateY(-2px);margin-left:1px;position:static;top:auto}@media(max-width:700px){.wordmark .brand-plus{font-size:25px;transform:translateY(-2px)}}
